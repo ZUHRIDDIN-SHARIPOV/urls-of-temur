@@ -133,10 +133,10 @@ img {
         -ms-flex-align: center;
             align-items: center;
     text-align: center;
-    margin-bottom: 7px;
+    margin-bottom: 10px;
   }
   .site-header__content {
-    margin-top: 20px;
+    margin-top: 17px;
   }
 }
 .hero__list {
