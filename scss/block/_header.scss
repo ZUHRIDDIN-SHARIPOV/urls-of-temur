@@ -33,29 +33,10 @@
   }
 }
 .site-header__content-job {
-  margin-bottom: 17px;
+  margin-bottom: 13px;
   @include text;
   font-size: 16px;
   color: $light-grey;
-}
-.site-header__content-dev {
-  display: flex;
-  align-items: center;
-  column-gap: 12px;
-}
-.site-header__content-dev p {
-  @include text;
-}
-.site-header__content-dev a {
-  padding: 7px 30px;
-  border-radius: 7px;
-  background-color: $blue;
-  box-shadow: $item-shadow;
-  color: $white;
-  &:hover {
-    background-color: $black;
-    transition: 0.3s ease all;
-  }
 }
 
 @media only screen and (max-width: 550px) {
@@ -66,8 +47,5 @@
   }
   .site-header__content {
     margin-top: 20px;
-  }
-  .site-header__content-dev {
-    justify-content: center;
   }
 }

@@ -115,46 +115,13 @@ img {
 }
 
 .site-header__content-job {
-  margin-bottom: 17px;
+  margin-bottom: 13px;
   font-family: "Raleway";
   font-weight: 400;
   font-size: 14px;
   color: #7979ff;
   font-size: 16px;
   color: rgba(201, 201, 255, 0.85);
-}
-
-.site-header__content-dev {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-column-gap: 12px;
-     -moz-column-gap: 12px;
-          column-gap: 12px;
-}
-
-.site-header__content-dev p {
-  font-family: "Raleway";
-  font-weight: 400;
-  font-size: 14px;
-  color: #7979ff;
-}
-
-.site-header__content-dev a {
-  padding: 7px 30px;
-  border-radius: 7px;
-  background-color: #08c;
-  -webkit-box-shadow: 0 7px 10px rgba(50, 50, 93, 0.1), 0 3px 4px rgba(0, 0, 0, 0.06);
-          box-shadow: 0 7px 10px rgba(50, 50, 93, 0.1), 0 3px 4px rgba(0, 0, 0, 0.06);
-  color: #fff;
-}
-.site-header__content-dev a:hover {
-  background-color: #000;
-  -webkit-transition: 0.3s ease all;
-  transition: 0.3s ease all;
 }
 
 @media only screen and (max-width: 550px) {
@@ -170,11 +137,6 @@ img {
   }
   .site-header__content {
     margin-top: 20px;
-  }
-  .site-header__content-dev {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
   }
 }
 .hero__list {
